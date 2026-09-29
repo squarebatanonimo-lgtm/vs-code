@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>EDULINEA - Frequência</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+<body>
+  <div class="app">
+<aside class="sidebar">
+  <img class="side-logo" src="assets/logo.png" alt="EDULINEA">
+  <a class="nav-item" href="05-inicio-professor.html">
+    <svg viewBox="0 0 48 48">
+      <path d="M4 23L24 6l20 17"/>
+      <path d="M9 21v22h12V30h6v13h12V21" fill="#fff" stroke="none"/>
+    </svg>
+    <span>Inicio</span>
+  </a>
+  <a class="nav-item" href="06-chamada.html">
+    <svg viewBox="0 0 48 48">
+      <rect x="8" y="8" width="27" height="35"/>
+      <path d="M15 4v8M28 4v8M12 18h18M13 24h5v5h-5zM13 33h5v5h-5zM22 24h8M22 34h8M36 29l8-8 3 3-8 8-5 2z"/>
+    </svg><span>Chamada</span>
+  </a>
+  <a class="nav-item active" href="07-frequencia.html">
+    <svg viewBox="0 0 48 48">
+      <path d="M6 40h36M8 38V10M10 34l8-8 7 4 12-15M33 15h7v7"/>
+    </svg>
+    <span>Frequência</span>
+  </a>
+  <a class="nav-item" href="#">
+    <svg viewBox="0 0 48 48">
+      <circle cx="13" cy="18" r="7"/>
+      <circle cx="25" cy="15" r="8"/>
+      <circle cx="38" cy="19" r="7"/>
+      <path d="M2 39c1-8 6-12 13-12s11 4 12 12M18 39c1-9 7-14 14-14s12 5 14 14"/>
+    </svg>
+    <span>Turmas</span>
+  </a>
+  <a class="nav-item" href="#">
+    <svg viewBox="0 0 48 48">
+      <path d="M13 38h22M17 38c-6-4-7-8-7-15 0-8 5-14 14-14s14 6 14 14c0 7-1 11-7 15M21 42h6"/>
+      <path d="M20 8c0-3 2-5 4-5s4 2 4 5"/>
+    </svg>
+    <span>Alertas</span>
+  </a>
+</aside>
+<header class="app-header">
+  <div class="school-title">Sistema Escolar</div>
+  <div class="profile">
+    <span class="avatar">
+    </span>
+    <span>Professor (a)</span>
+  </div>
+</header>
+<main class="app-main freq-main">
+  <h1 class="page-title">Frequência dos alunos</h1>
+  <section class="filters">
+    <div class="filter">
+      <label>Turma</label>
+      <div class="select-like">9 b</div>
+    </div>
+    <div class="filter">
+      <label>Mês</label>
+      <div class="select-like">Setembro</div>
+    </div>
+  </section>
+  <section class="freq-wrap">
+    <div class="freq-head">
+      <span>Alunos</span>
+      <span>Frequência</span>
+      <span>Situação</span>
+    </div>
+    <div class="freq-table">
+      <div class="freq-row">
+        <span>Ana Laura</span>
+        <span class="pct">75%</span>
+        <span class="freq-status normal">Normal</span>
+      </div>
+      <div class="freq-row">
+        <span>Breno da Silva</span>
+        <span class="pct">88%</span>
+        <span class="freq-status normal">Normal</span>
+      </div>
+      <div class="freq-row">
+        <span>Carlos de Carvalho</span>
+        <span class="pct">50%</span>
+        <span class="freq-status attention">Atenção</span>
+      </div>
+    </div>
+  </section>
+</main>
+</div>
+</body>
+</html>
